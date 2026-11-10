@@ -17,6 +17,7 @@ author:
     roles: []
     affiliations:
       - Humboldt-Universität zu Berlin
+lang: de
 keywords:
   - Geopolitik
   - Everyday Geopolitics
