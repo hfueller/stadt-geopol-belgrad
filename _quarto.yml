@@ -1,6 +1,6 @@
 project:
   type: manuscript
-  post-render: scripts/git-autopush.sh
+  post-render: scripts/git-autopush.ts
 
 execute:
   freeze: auto
