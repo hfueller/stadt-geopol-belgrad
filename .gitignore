@@ -13,3 +13,10 @@
 .DS_Store
 
 **/*.quarto_ipynb
+
+# Reste abgebrochener Renders im Projektwurzelverzeichnis
+/index.html
+/index.docx
+/index.tex
+/index.xml
+/index_files/
