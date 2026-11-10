@@ -7,7 +7,7 @@ author:
     email: henning.fueller@geo.hu-berlin.de
     affiliations:
       - Humboldt-Universität zu Berlin
-  - name: "Gruppe _Studenti pobeđuju_"
+  - name: "Gruppe Studenti pobeđuju"
     corresponding: false
     affiliations:
       - Humboldt-Universität zu Berlin
@@ -25,7 +25,11 @@ key-points:
 date: last-modified
 bibliography: references.bib
 citation:
-  container-title: Manuskript für Zeitschrift sub\\urban
+  container-title: Manuskript für Zeitschrift sub\urban
+format:
+  agu-pdf:
+    citation:
+      container-title: Manuskript für Zeitschrift sub\textbackslash{}urban
 number-sections: true
 ---
 
