@@ -27,6 +27,9 @@ bibliography: references.bib
 citation:
   container-title: Manuskript für Zeitschrift sub\urban
 format:
+  html: default
+  docx: default
+  jats: default
   agu-pdf:
     citation:
       container-title: Manuskript für Zeitschrift sub\textbackslash{}urban
