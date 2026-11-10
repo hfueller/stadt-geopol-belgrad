@@ -25,7 +25,7 @@ key-points:
 date: last-modified
 bibliography: references.bib
 citation:
-  container-title: Manuskript für Zeitschrift sub\urban
+  container-title: Manuskript für Zeitschrift sub\\urban
 number-sections: true
 ---
 
