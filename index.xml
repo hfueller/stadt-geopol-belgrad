@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
+and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+
+<front>
+<journal-meta>
+<journal-id></journal-id>
+
+<journal-title-group>
+<journal-title>Manuskript für Zeitschrift sub</journal-title>
+</journal-title-group>
+<issn></issn>
+
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+
+
+<article-meta>
+
+
+<title-group>
+<article-title>Stadt als geopolitisches Werkzeug - das Beispiel
+Belgrad</article-title>
+</title-group>
+
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+<contrib-id contrib-id-type="orcid">0000-0002-0720-1679</contrib-id>
+<name>
+<surname>Füller</surname>
+<given-names>Henning</given-names>
+</name>
+<string-name>Henning Füller</string-name>
+
+<email>henning.fueller@geo.hu-berlin.de</email>
+<xref ref-type="aff" rid="aff-1">a</xref>
+<xref ref-type="corresp" rid="cor-1">&#x002A;</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>pobeđuju</surname>
+<given-names>Gruppe Studenti</given-names>
+</name>
+<string-name>Gruppe Studenti pobeđuju</string-name>
+
+<xref ref-type="aff" rid="aff-1">a</xref>
+</contrib>
+</contrib-group>
+<aff id="aff-1">
+<institution-wrap>
+<institution>Humboldt-Universität zu Berlin</institution>
+</institution-wrap>
+
+
+
+
+
+
+
+</aff>
+<author-notes>
+<corresp id="cor-1">henning.fueller@geo.hu-berlin.de</corresp>
+</author-notes>
+
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2026-11-10">
+<year>2026</year>
+<month>11</month>
+<day>10</day>
+</pub-date>
+
+
+
+
+
+
+
+<history></history>
+
+
+<abstract>
+<p>Der Beitrag macht ausgehend von den beiden empirischen Beispielen
+Waterfront und EXPO 2027 deutlich, inwiefern Versuche der geopolitischen
+Positionierung regelmäßig auf räumliche Stabilisierungen angewiesen sind
+und inwiefern diese in Teilen geopolitisch motivierte Fixierung
+städtische Wirklichkeit prägt, aber auch neue Möglichkeiten für soziale
+Bewegung schafft.</p>
+</abstract>
+<kwd-group kwd-group-type="author">
+<kwd>Geopolitik</kwd>
+<kwd>Everyday Geopolitics</kwd>
+</kwd-group>
+
+
+
+
+</article-meta>
+
+</front>
+
+<body>
+<sec id="einleitung">
+  <title>1 Einleitung</title>
+  <p>Noch am Wahlabend des 25. Oktober hat Aleksandar Vučić,
+  Staatspräsident von Serbien seit 2014, seinen Rücktritt bekannt
+  gegeben. Die Studierendenliste kam auf 51,5% der abgegebenen Stimmen.
+  Vučićs SNS nur auf 40,4 %. Damit ist ein Staatschef zurückgetreten,
+  den Beobachter als ‚den von Europa meist favorisierten Autokraten‘
+  (<xref alt="Eror 2018" rid="ref-Eror18How-Alek" ref-type="bibr">Eror
+  2018</xref>) bezeichnet haben. Seit einem damals ebenfalls
+  überraschenden Wahlsieg seiner ‚Serbischen Fortschrittspartei‘ (SNS)
+  im Jahr 2012 konnte Vučić seine autoritäre Herrschaft immer weiter
+  konsolidieren. Ausgehend vom Einsturz eines Teils des Bahnhofs von
+  Novi Sad am 01. November 2024, bei dem 16 Menschen auf tragische Weise
+  ums Leben gekommen sind, hatte sich eine sichtbare
+  zivilgesellschaftliche Gegenbewegung formiert mit teils eigenen
+  Protestformen. Die Wahl und der Sieg der Studierendenliste markiert
+  einen unerwarteten Erfolg dieser Bewegung.</p>
+  <p>Ausgehend von einem einjährigen Studienprojekt in Kooperation mit
+  der Universität Belgrad und einem einwöchigen Forschungsaufenthalt im
+  Juni 2026 gehen wir in diesem Aufsatz einigen Hintergründen nach.
+  Unserer Lesart nach lässt sich die Regierung Vučić als paradigmatisch
+  für einen „autoritären Neoliberalismus“ fassen. Machterhalt wurde in
+  diesem Fall entscheidend auf eine Skalenpolitik gestützt, die
+  insbesondere städtische Großprojekte zum Dreh- und Angelpunkt genommen
+  hat
+  (<xref alt="Piletić 2022" rid="ref-Piletic22The-role" ref-type="bibr">Piletić
+  2022</xref>). Städtische Politiken und geopolitische Strategien kommen
+  dabei in direkte Wechselwirkung. Ergänzend zu diesen Befunden der
+  Literatur schlagen wir im Folgenden vor, die</p>
+  <p>Die ‚urban geopolitical turn‘ anhand zweier exemplarischer Fälle.
+  Empirisches Material sind neben teilnehmender Beobachtung und
+  Expert*inneninterviews mehr als 30 Stunden Interviewmaterial mit
+  Akteur*innen unterschiedlicher sozialer Bewegungen im Rahmen der
+  Studierendenproteste.</p>
+  <p>Die spezifische Form autoritärer Herrschaft auf dem Westbalkan wird
+  häufig als ‚Stabilokratie‘ diskutiert. Das Versprechen auf Stabilität
+  und rechtmäßige Wahlen wird nach außen stark gemacht und so das
+  Wohlwollen z.B. der EU sichergestellt. Gleichzeitig kommt es nach
+  innen zu starken autoritären Tendenzen und einer Aushöhlung von
+  Demokratie und Rechtsstaatlichkeit. Insbesondere das Regime von
+  Aleksandar Vučić greift zudem auf ökonomische Großprojekte mit
+  intransparenter internationaler Finanzierung als Mittel zur
+  Stabilisierung nach innen zurück (Bieber 2020). Die Stadt wird zu
+  einem Werkzeug geopolitischer Positionierung. Das Beispiel Belgrade
+  Waterfront ist hier besonders augenfällig
+  (<xref alt="Zeković u. a. 2023" rid="ref-Zekovic23The-fina" ref-type="bibr">Zeković
+  u. a. 2023</xref>). Hochpreisige Apartmenttürme gebaut mit
+  internationalem Investmentkapital sollen den Anspruch Belgrads als
+  <italic>world class city</italic> auch baulich zementieren. Dazu
+  wurden allerdings bestehende städtische Planungs- und Vergabeverfahren
+  mit nationalem Recht überschrieben
+  (<xref alt="Grubbauer und Čamprag 2019" rid="ref-Grubbauer19Urban-me" ref-type="bibr">Grubbauer
+  und Čamprag 2019</xref>). Die offensichtliche Vereinnahmung zentraler
+  Flächen der Stadt als Beute von Investmentstrategien sowie die
+  generische Architektur und mangelhafte bauliche Qualität sind im
+  Gegenzug Katalysator für die Formierung zivilgesellschaftlichen
+  Widerstands
+  (<xref alt="Čamprag 2024" rid="ref-Camprag24Effects" ref-type="bibr">Čamprag
+  2024</xref>). Eine zweites Fallbeispiel ist die Planung der EXPO 2027,
+  die sich in ganz ähnlicher Weise als geopolitisches Werkzeug und als
+  Inkubator von Protest lesen lässt.</p>
+  <p>Der Beitrag macht ausgehend von den beiden empirischen Beispielen
+  Waterfront und EXPO 2027 deutlich, inwiefern Versuche der
+  geopolitischen Positionierung regelmäßig auf räumliche
+  Stabilisierungen angewiesen sind und inwiefern diese in Teilen
+  geopolitisch motivierte Fixierung städtische Wirklichkeit prägt, aber
+  auch neue Möglichkeiten für soziale Bewegung schafft. ¡</p>
+</sec>
+<sec id="sec-hintergrund">
+  <title>2 Stadt als Werkzeug im autoritären Neoliberalismus</title>
+  <p>Die Position auf der Grenze geopolitischer Bruchlinien ist ein
+  historisch prägendes Merkmal für Serbien. Solche Bruchlinien verliefen
+  zwischen westlichem Katholizismus und und orthodoxem Christentum,
+  zwischen Habsburger Monarchie und osmanischem Reich, zwischen
+  jugoslawischem Sozialismus und serbischem Nationalismus und heute
+  zwischen Europa und Russland. Die fortlaufend notwendige Aushandlungen
+  solcher geopolitischer Selbstpositionierung steht in einem besonderen
+  Spannungsverhältnis zur Stadtentwicklung, insbesondere in Belgrad. Die
+  ‚ontologische Unsicherheit‘ bezüglich der geopolitischen Situation
+  macht die Stabilisierung mit Hilfe greifbarer baulicher Merkmale hier
+  besonders relevant Cupać
+  (<xref alt="2020" rid="ref-Cupac20The-anxi" ref-type="bibr">2020</xref>).
+  Die Rolle des Städtischen im Wechselspiel von staatlicher Macht,
+  geopolitischen Diskursen und Raumproduktion ist bisher zu vage
+  bestimmt
+  (<xref alt="Bădescu 2022" rid="ref-Badescu22Urban-Ge" ref-type="bibr">Bădescu
+  2022</xref>). Herrschende Kräfte greifen aktiv auf gebauten Raum zu,
+  auf funktionale und auf symbolische Räume der Stadt, um bestimmte
+  Positionierungen abzusichern und auf Dauer zu stellen. Zugleich bieten
+  solche städtische Strukturen geeignete Ansatz- und
+  Kristallisationspunkte für Widerstand.</p>
+  <disp-quote>
+    <p>a number of prominent contributions have drawn attention to the
+    important role of urban space in anchoring authoritarian
+    neoliberalism(s) (e.g. Di Giovanni, 2016; Jenss, 2019; Tansel,
+    2019)</p>
+  </disp-quote>
+  <p>Großprojekte der Stadtentwicklung sind für das System des
+  ‚autoritären Neoliberalismus‘
+  (<xref alt="Čamprag 2023" rid="ref-Camprag23Megaproj" ref-type="bibr">Čamprag
+  2023</xref>) in Serbien in vielfacher Hinsicht funktional gewesen.
+  Insbesondere kommt in Großprojekten eine charakteristische
+  Skalenpolitik zum Ausdruck, die Machtverhältnisse zwischen
+  internationaler, nationaler und städtischer Ebene neue ordnet
+  (<xref alt="Piletić 2022" rid="ref-Piletic22The-role" ref-type="bibr">Piletić
+  2022</xref>). Im Zuge dessen sind solche Großprojekte auch
+  strategische Setzungen in geopolitischen Bezügen. Megaprojekte sind
+  nicht nur die Basis für Akkumulation, sondern zugleich Medium
+  außenpolitischer Bündnispflege (Golf-Kapital bei der Waterfront, die
+  EXPO als internationale Bühne). Aus diese Doppelfunktion ergibt sich
+  eine besondere Verwundbarkeit für Protest, so die Hypothese des
+  Beitrags.</p>
+</sec>
+<sec id="waterfront">
+  <title>3 Waterfront</title>
+</sec>
+<sec id="expo-2027">
+  <title>4 Expo 2027</title>
+</sec>
+</body>
+
+<back>
+<ref-list>
+  <title>Literatur</title>
+  <ref id="ref-Camprag24Effects">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Čamprag</surname><given-names>Nebojša</given-names></name>
+      </person-group>
+      <article-title>Effects and Consequences of Authoritarian Urbanism: Large-Scale Waterfront Redevelopments in Belgrade, Zagreb, and Novi Sad</article-title>
+      <source>Urban Planning</source>
+      <year iso-8601-date="2024">2024</year>
+      <volume>9</volume>
+      <pub-id pub-id-type="doi">10.17645/up.7589</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Badescu22Urban-Ge">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Bădescu</surname><given-names>Gruia</given-names></name>
+      </person-group>
+      <article-title>Urban Geopolitics in ’Ordinary’ and ’Contested’ Cities: Perspectives from the European South-East</article-title>
+      <source>Geopolitics</source>
+      <year iso-8601-date="2022">2022</year>
+      <volume>28</volume>
+      <issue>5</issue>
+      <pub-id pub-id-type="doi">10.1080/14650045.2022.2129010</pub-id>
+      <fpage>1757</fpage>
+      <lpage>1782</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Cupac20The-anxi">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Cupać</surname><given-names>Jelena</given-names></name>
+      </person-group>
+      <article-title>The anxiety dilemma: Locating the Western Balkans in the age of anxiety</article-title>
+      <source>Journal of Regional Security</source>
+      <publisher-name>Centre for Evaluation in Education; Science (CEON/CEES)</publisher-name>
+      <year iso-8601-date="2020">2020</year>
+      <volume>15</volume>
+      <issue>1</issue>
+      <issn>2406-0364</issn>
+      <uri>http://dx.doi.org/10.5937/jrs15-25359</uri>
+      <pub-id pub-id-type="doi">10.5937/jrs15-25359</pub-id>
+      <fpage>7</fpage>
+      <lpage>38</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Ejdus17Not-a-he">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Ejdus</surname><given-names>Filip</given-names></name>
+      </person-group>
+      <article-title>‘Not a heap of stones’: material environments and ontological security in international relations</article-title>
+      <source>Cambridge Review of International Affairs</source>
+      <year iso-8601-date="2017">2017</year>
+      <volume>30</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1080/09557571.2016.1271310</pub-id>
+      <fpage>23</fpage>
+      <lpage>43</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Camprag23Megaproj">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Čamprag</surname><given-names>Nebojša</given-names></name>
+      </person-group>
+      <article-title>Megaprojekt ‚Belgrade Waterfront‘: Neugestaltung der Stadt durch autoritäre Stadtentwicklung</article-title>
+      <source>sub\urban. zeitschrift für kritische stadtforschung</source>
+      <year iso-8601-date="2023">2023</year>
+      <volume>11</volume>
+      <issue>3/4</issue>
+      <uri>https://zeitschrift-suburban.de/sys/index.php/suburban/article/view/856</uri>
+      <fpage>43</fpage>
+      <lpage>72</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Grubbauer19Urban-me">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Grubbauer</surname><given-names>Monika</given-names></name>
+        <name><surname>Čamprag</surname><given-names>Nebojša</given-names></name>
+      </person-group>
+      <article-title>Urban megaprojects, nation-state politics and regulatory capitalism in Central and Eastern Europe: The Belgrade Waterfront project</article-title>
+      <source>Urban Studies</source>
+      <year iso-8601-date="2019">2019</year>
+      <volume>56</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1177/0042098018757663</pub-id>
+      <fpage>649</fpage>
+      <lpage>671</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Piletic22The-role">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Piletić</surname><given-names>Aleksandra</given-names></name>
+      </person-group>
+      <article-title>The role of the urban scale in anchoring authoritarian neoliberalism: a look at post-2012 neoliberalization in Belgrade, Serbia</article-title>
+      <source>Globalizations</source>
+      <year iso-8601-date="2022">2022</year>
+      <volume>19</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1080/14747731.2021.1882817</pub-id>
+      <fpage>285</fpage>
+      <lpage>300</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Zekovic23The-fina">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Zeković</surname><given-names>Slavka</given-names></name>
+        <name><surname>Perić</surname><given-names>Ana</given-names></name>
+        <name><surname>Hadžić</surname><given-names>Miroljub</given-names></name>
+      </person-group>
+      <article-title>The financialization of ‘the urban’ in the post-socialist Serbia: evidence from the Belgrade Waterfront megaproject</article-title>
+      <source>Journal of Urban Affairs</source>
+      <year iso-8601-date="2023">2023</year>
+      <pub-id pub-id-type="doi">10.1080/07352166.2023.2239962</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Eror18How-Alek">
+    <element-citation publication-type="webpage">
+      <person-group person-group-type="author">
+        <name><surname>Eror</surname><given-names>Aleks</given-names></name>
+      </person-group>
+      <article-title>How Aleksandar Vucic Became Europe’s Favorite Autocrat: The EU is undermining its credibility by choosing stability over democracy in Serbia</article-title>
+      <publisher-name>Foreign Policy</publisher-name>
+      <year iso-8601-date="2018-03-09">2018</year><month>03</month><day>09</day>
+      <date-in-citation content-type="access-date"><year iso-8601-date="2026-11-10">2026</year><month>11</month><day>10</day></date-in-citation>
+      <uri>https://foreignpolicy.com/2018/03/09/how-aleksandar-vucic-became-europes-favorite-autocrat/</uri>
+    </element-citation>
+  </ref>
+</ref-list>
+</back>
+
+
+
+</article>
