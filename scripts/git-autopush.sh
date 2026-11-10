@@ -16,7 +16,7 @@ git commit -q -m "Render $(date '+%Y-%m-%d %H:%M')" || exit 0
 # Push im Hintergrund, damit Render/Preview nicht blockiert;
 # Ergebnis landet in .quarto/autopush.log (ist per .gitignore ausgeschlossen)
 mkdir -p .quarto
-( git push -q origin HEAD >> .quarto/autopush.log 2>&1 \
+( GIT_TERMINAL_PROMPT=0 git push -q origin HEAD >> .quarto/autopush.log 2>&1 \
     && echo "$(date '+%F %T') push ok" >> .quarto/autopush.log \
     || echo "$(date '+%F %T') push FEHLGESCHLAGEN" >> .quarto/autopush.log ) &
 exit 0
