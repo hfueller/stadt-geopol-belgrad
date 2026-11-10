@@ -5,16 +5,10 @@ author:
     orcid: 0000-0002-0720-1679
     corresponding: true
     email: henning.fueller@geo.hu-berlin.de
-    roles:
-      - Investigation
-      - Project administration
-      - Software
-      - Visualization
     affiliations:
       - Humboldt-Universität zu Berlin
   - name: "Gruppe _Studenti pobeđuju_"
     corresponding: false
-    roles: []
     affiliations:
       - Humboldt-Universität zu Berlin
 lang: de
@@ -31,7 +25,7 @@ key-points:
 date: last-modified
 bibliography: references.bib
 citation:
-  container-title: sub\\urban
+  container-title: Manuskript für Zeitschrift sub\urban
 number-sections: true
 ---
 
