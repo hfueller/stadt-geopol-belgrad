@@ -66,6 +66,8 @@
 
 
 \usepackage{longtable,booktabs,array}
+\usepackage{caption}
+\captionsetup[table]{skip=6pt}
 \newcounter{none} % for unnumbered tables
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -73,9 +75,6 @@
 \makeatletter
 \patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
 \makeatother
-% Allow footnotes in longtable head/foot
-\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
-\makesavenoteenv{longtable}
 \usepackage{graphicx}
 \makeatletter
 \newsavebox\pandoc@box
@@ -248,30 +247,31 @@ Staatspräsident von Serbien seit 2014, seinen Rücktritt bekannt gegeben.
 Die Studierendenliste kam auf 51,5\% der abgegebenen Stimmen. Vučićs SNS
 nur auf 40,4 \%. Damit ist ein Staatschef zurückgetreten, den Beobachter
 als ‚den von Europa meist favorisierten Autokraten` (Eror, 2018)
-bezeichnet haben. Seit dem damals ebenfalls überraschenden Wahlsieg
-seiner ‚Serbischen Fortschrittspartei` (SNS) im Jahr 2012 konnte Vučić
-seine autoritäre Herrschaft immer weiter konsolidieren. Widerstand
-begann sich vor allem seit November 2024 breit zu formieren. Damals war
-ein Teils des Bahnhofs von Novi Sad eingestürzt und 16 Menschen sind auf
-tragische Weise ums Leben gekommen. Das Ereignis löste Proteste und eine
+bezeichnet haben. Seit dem Wahlsieg seiner ‚Serbischen
+Fortschrittspartei` (SNS) im Jahr 2012 konnte Vučić seine autoritäre
+Herrschaft immer weiter konsolidieren. Widerstand begann sich vor allem
+seit November 2024 breit zu formieren. Damals war ein Teils des Bahnhofs
+von Novi Sad eingestürzt und 16 Menschen sind auf tragische Weise ums
+Leben gekommen. Das Ereignis löste Proteste und eine
 zivilgesellschaftliche Gegenbewegung aus. Die Wahl und der Sieg der
 Studierendenliste markiert nun einen unerwarteten Erfolg dieser
 Bewegung.
 
 Ausgehend von einem einjährigen Studienprojekt in Kooperation mit der
 Universität Belgrad und einem einwöchigen Forschungsaufenthalt im Juni
-2026 gehen wir in diesem Aufsatz einigen Hintergründen nach. Unserer
-Lesart nach lässt sich die Regierung Vučić als paradigmatisches Beispiel
-für einen „autoritären Neoliberalismus`` fassen (Bruff, 2014). Bereits
-gut herausgearbeitet, auch in dieser Zeitschrift, ist die besondere
-Rolle des Städtischen für dieses Regime. Städtische Großprojekte wie
-z.B. die umfassende Neugestaltung des Save Ufers (‚Belgrade Waterfront`)
-wurden zu einem Dreh- und Angelpunkt für die Legitmation und den
-Machterhalt der Regierung Vučić (Čamprag, 2023). Solche Großprojekte
-eröffnen unterschiedliche Möglichkeiten für Machterhalt. Sie versehen
-das Regime mit einem Nimbus von Entwicklung und Modernisierung und sie
-verschaffen Spielräume um lokale Eliten mit Investitionsmöglichkeiten
-und Gewinnbeteiligung zu ko-optieren. Nicht zuletzt können durch solche
+2026 gehen wir in diesem Aufsatz einigen Hintergründen dieser
+erfolgreichen Protestbewegung nach. Unserer Lesart nach lässt sich die
+Regierung Vučić als paradigmatisches Beispiel für einen „autoritären
+Neoliberalismus`` fassen (Bruff, 2014). Bereits gut herausgearbeitet,
+auch in dieser Zeitschrift, ist die besondere Rolle des Städtischen für
+derartige Regime. Städtische Großprojekte wie z.B. die umfassende
+Neugestaltung des Save Ufers (‚Belgrade Waterfront`) wurden zu einem
+Dreh- und Angelpunkt für die Legitmation und den Machterhalt der
+Regierung Vučić (Čamprag, 2023). Solche Großprojekte eröffnen
+unterschiedliche Möglichkeiten für Machterhalt. Sie versehen das Regime
+mit einem Nimbus von Entwicklung und Modernisierung und sie verschaffen
+Spielräume um lokale Eliten mit Investitionsmöglichkeiten und
+Gewinnbeteiligung zu ko-optieren. Nicht zuletzt können durch solche
 Großprojekte auch geopolitische Verbindungen gestärkt werden (Darieva
 u.~a., 2026).
 
@@ -281,11 +281,13 @@ Neoliberalismus (Piletić, 2022). Einerseits kommt es zu einer neuen
 Zentralisierung von Planungs- und Entscheidungskompetenzen auf der
 nationalen Ebene. Andererseits bekommen sowohl lokale wirtschaftliche
 Akteure aber auch internationale Investoren neue Spielräume. Diese
-Skalenpolitik wird meist im Hinblick auf Machterhalt kritisch
-beschrieben. Wie wird städtische Geopolitik zu einem Moment der Stützung
-autoritärer Regime? In diesem Beitrag legen wir den Schwerpunkt auf die
-Gegenbewegung. Die neue Skalenpolitik schafft bei aller Stabilisierung
-zugleich auch neue Ansatzpunkte für Protest.
+Skalenpolitik bzw. städtische Geopolitik ist in ihrer Funktion für den
+Machterhalt autoritärer Regime bereits gut beschrieben. In diesem
+Beitrag legen wir den Schwerpunkt auf die Spannungsmomente und
+Bruchstellen, die in dieser Form städtischer Geopolitik ebenfalls
+angelegt sind. Die neue Skalenpolitik schafft bei aller Stabilisierung
+zugleich auch neue Ansatzpunkte für Protest - diese These möchten wir am
+Beispiel Belgrad anschaulich machen.
 
 Der Beitrag macht ausgehend von den beiden empirischen Beispielen
 Waterfront und EXPO 2027 deutlich, inwiefern Versuche der geopolitischen
@@ -294,62 +296,118 @@ und inwiefern diese in Teilen geopolitisch motivierte Fixierung
 städtische Wirklichkeit prägt, aber auch neue Möglichkeiten für soziale
 Bewegung schafft.
 
-\section{Skalenpolitik im autoritären
-Neoliberalismus}\label{sec-hintergrund}
+\section{Stabilokratie, Stadt und Spannungen}\label{sec-hintergrund}
 
 Die Position auf der Grenze geopolitischer Bruchlinien ist ein
 historisch prägendes Merkmal für Serbien. Solche Bruchlinien verliefen
 zwischen westlichem Katholizismus und und orthodoxem Christentum,
 zwischen Habsburger Monarchie und osmanischem Reich, zwischen
 jugoslawischem Sozialismus und serbischem Nationalismus und heute
-zwischen Europa und Russland. Die fortlaufend notwendige Aushandlungen
-solcher geopolitischer Selbstpositionierung steht in einem besonderen
-Spannungsverhältnis zur Stadtentwicklung, insbesondere in Belgrad. Die
-‚ontologische Unsicherheit` bezüglich der geopolitischen Situation macht
-die Stabilisierung mit Hilfe greifbarer baulicher Merkmale hier
-besonders relevant Cupać (2020). Die Rolle des Städtischen im
-Wechselspiel von staatlicher Macht, geopolitischen Diskursen und
-Raumproduktion ist bisher zu vage bestimmt (Bădescu, 2022). Herrschende
-Kräfte greifen aktiv auf gebauten Raum zu, auf funktionale und auf
-symbolische Räume der Stadt, um bestimmte Positionierungen abzusichern
-und auf Dauer zu stellen. Zugleich bieten solche städtische Strukturen
-geeignete Ansatz- und Kristallisationspunkte für Widerstand.
+zwischen Europa und Russland. Ungeklärte Zugehörigkeiten sind ein
+Bezugspunkt für die gegenwärtige Außenpolitik Serbiens. Boris Tadić
+formuliert bereits 2009 die Strategie der ‚vier Säulen der Diplomatie`,
+die für Serbien das Ziel der EU Integration feststellt, aber zugleich
+die Annäherung an die drei anderen Großmächte USA, Russland und China
+fordert (Tzifakis \& Vasdoka, 2025). Diese transaktionale Strategie
+wurde unter Aleksandar Vučić fortgesetzt. Vučić hat die Annäherung an
+die EU und die Aussicht auf Erfüllung europäischer Wirtschaftsinteressen
+(bspw. die Lithium-Mine im Jadar Tal) verbunden sowohl mit einem
+öffentlichen Schulterschluss gegenüber Russland im Ukraine Konflikt und
+mit dem Abschluss eines Freihandelsabkommens mit China. Tzifakis und
+Vasdoka erkennen darin eine besondere Form des außenpolitischen
+‚Hedging`, die im Fall Serbiens vor allem einem innenpolitischen
+Machterhalt dient. „The incumbent regime has strategically employed
+hedging to increase its domestic legitimacy and secure benefits for its
+patronage and clientelistic networks.`` (Tzifakis \& Vasdoka, 2025, S.
+300)
 
-\begin{quote}
-a number of prominent contributions have drawn attention to the
-important role of urban space in anchoring authoritarian
-neoliberalism(s) (e.g.~Di Giovanni, 2016; Jenss, 2019; Tansel, 2019)
-\end{quote}
+Dieses ‚hedging`, d.h. die fortlaufende Austarierung zwischen
+konkurrierenden Mächten, schafft eine Situation unklarer kollektiver
+Identität. Stabile Identitätsangebote werden in der aktuellen Situation
+‚ontologischer Verunsicherung` generell relevanter (Steele \& Homolar,
+2019). Zusätzlich verweist der Aufstieg rechtspopulistischer Parteien
+auf ein zunehmend relevatnes Dilemma bei der Suche nach ‚versichernden`
+Identitätsangeboten. ‚Versichernde` Identitätsangebote für eine Gruppe
+sind teils dezidiert verunsichernd für eine andere. „Narratives that aim
+to reduce the uncertainty of the social world for some actors may be
+seen as a threat by others, leading them to also craft stories that
+might increase uncertainty.`` (Della Sala, 2018, S. 267). Cupać zufolge
+spielt dieses ‚anxiety dilemma` auf dem Westbalkan eine besondere Rolle.
+Durch eine pro-europäische Haltung werden Erwartungen eines liberal und
+global orientierten ‚kosmpolitanen Lagers` bedient aber zugleich Ängste
+bei einem national und autoritär orientierten ‚kommunitarischen Lagers`
+geschürt und umgekehrt (Cupać, 2020). Die Erzählung vom ‚europäischen
+Serbien` bietet urbanen, liberalen Milieus Orientierung und Sicherheit.
+Nationalistische Kreise erleben sie dagegen als Bedrohung von
+Souveränität und Kosovo-Anspruch. Sie setzen die Idee eines
+‚brüderliches` Russlands und des übergriffigen Westen entgegen. Diese
+grundlegende Spannung manifestiert sich innerhalb der serbischen
+Gesellschaft und wird hier durch die Regierung Vučić strategisch
+genutzt. „{[}We witness a{]} careful production of domestic tensions
+that create, exploit, and misrepresent the local cosmopolitan versus
+communitarian cleavage`` (Cupać, 2020, S. 25).
 
-Die spezifische Form autoritärer Herrschaft auf dem Westbalkan wird
-häufig als ‚Stabilokratie` diskutiert. Das Versprechen auf Stabilität
-und rechtmäßige Wahlen wird nach außen stark gemacht und so das
-Wohlwollen z.B. der EU sichergestellt. Gleichzeitig kommt es nach innen
-zu starken autoritären Tendenzen und einer Aushöhlung von Demokratie und
-Rechtsstaatlichkeit. Insbesondere das Regime von Aleksandar Vučić greift
-zudem auf ökonomische Großprojekte mit intransparenter internationaler
-Finanzierung als Mittel zur Stabilisierung nach innen zurück (Bieber,
-2020). Die Stadt wird zu einem Werkzeug geopolitischer Positionierung.
-Das Beispiel Belgrade Waterfront ist hier besonders augenfällig (Zeković
-u.~a., 2023). Hochpreisige Apartmenttürme gebaut mit internationalem
-Investmentkapital sollen den Anspruch Belgrads als \emph{world class
-city} auch baulich zementieren. Dazu wurden allerdings bestehende
-städtische Planungs- und Vergabeverfahren mit nationalem Recht
-überschrieben (Grubbauer \& Čamprag, 2019). Die offensichtliche
-Vereinnahmung zentraler Flächen der Stadt als Beute von
-Investmentstrategien sowie die generische Architektur und mangelhafte
-bauliche Qualität sind im Gegenzug Katalysator für die Formierung
-zivilgesellschaftlichen Widerstands (Čamprag, 2024). Eine zweites
-Fallbeispiel ist die Planung der EXPO 2027, die sich in ganz ähnlicher
-Weise als geopolitisches Werkzeug und als Inkubator von Protest lesen
-lässt.
+Die Skala des Städtischen ist nach Filip Ejdus von besonderer Bedeutung
+als ein Werkzeug in dieser Situation der Verunsicherung. Bewusst
+inszenierte geopolitische Spannungen und strategisch verstärkte
+innergesellschaftlichen Spaltungen können auf der Ebene von Stadtplanung
+und Architektur bearbeitet werden (Bădescu, 2022). Städtische Räume
+können zur Projektionsfläche von kollektiven Identitätsangeboten wie
+z.B. von nationaler Identität werden und diese Angebote stabilisieren
+und plausibilisieren. „By mooring their identity to material
+environments, states secure their sense of biographical continuity and
+fend off anxieties stemming from the prospect of a divided and fractured
+self.`` (Ejdus, 2017, S. 38).
 
-Großprojekte der Stadtentwicklung sind für das System des ‚autoritären
-Neoliberalismus` (Čamprag, 2023) in Serbien in vielfacher Hinsicht
-funktional gewesen. Insbesondere kommt in Großprojekten eine
+Diese Funktion von Architektur und städtischem Raum als Identitätsanker
+spielt eine wichtige Rolle bei der Stabilisierung autoritärer Regime.
+Die spezifische Form der Herrschaft auf dem Westbalkan wird häufig als
+‚Stabilokratie` diskutiert. Das Versprechen auf Stabilität und
+rechtmäßige Wahlen wird nach außen stark gemacht und so das Wohlwollen
+z.B. der EU sichergestellt. Gleichzeitig kommt es nach innen zu starken
+autoritären Tendenzen und einer Aushöhlung von Demokratie und
+Rechtsstaatlichkeit. Die Stabilisierung solcher Herrschaft geschieht
+häufig über Zugriff auf Stadtpolitik und Stadtentwicklung, das wird in
+Debatten zum autoritären Neoliberalismus herausgestellt (Di Giovanni,
+2017; Jenss, 2019; Tansel, 2019). Anhand unterschiedlicher Beispiele
+wird dort auf eine charakteristische Reskalierung hingewiesen.
+Autoritäre Regierungen zielen häufig darauf, Verfügungsgewalt über
+lokale Politik an sich zu zehen. Es kommt zu einer exekutiven
+Zentralisierung. Politikinhalte, die nach geltendem Recht auf der Ebene
+lokaler städtischer Regierungen entschieden werden sollen, werden
+mittels Sondergesetzen in die nationale Zuständigkeit verlagert. Es
+kommt zu einer Überschreibung formaler Gewaltenteilung etwa im
+Planungsrecht (Grubbauer \& Čamprag, 2019). Die neue direkte
+Eingriffsmöglichkeit in Belange der Stadtpolitik wird dazu genutzt, um
+städtische Austerität, umstrittene Restrukturierungen oder Großprojekte
+einseitig im Sinne vorherrschender Interessen zu entscheiden und dadurch
+für diese Gruppe sichtbare Stärke zu demonstrieren (Jenss, 2019; Tansel,
+2019). Herrschende Kräfte greifen aktiv auf gebauten Raum zu, auf
+funktionale und auf symbolische Räume der Stadt, um bestimmte
+Positionierungen abzusichern und auf Dauer zu stellen.
+
+Diese allgemeinen Befunde zu geopolitischem ‚hedging`, zu ontologischer
+Verunsicherung und dem ‚anxiety Dilemma` sowie zu der exekutiven
+Zentralisierung als Merkmal des autoritären Neoliberalismus sind
+hilfreich, um die Situation in Serbien während der Regierung Vučić zu
+verstehen. Die Stadtentwicklung in Belgrad ist aus dieser Perspektive
+relevanter Schauplatz der Stabilisierung des Regimes (Čamprag, 2023).
+Sichtbar wird das vor allem anhand aktueller Großprojekte der
+Stadtentwicklung. Allen voran das Projekt Belgrade Waterfront (Zeković
+u.~a., 2023), aber auch die EXPO Planungen. Das Regime von Aleksandar
+Vučić griff auf ökonomische Großprojekte mit intransparenter
+internationaler Finanzierung als Mittel zur Stabilisierung nach innen
+zurück (Bieber, 2020). Insbesondere kommt in Großprojekten eine
 charakteristische Skalenpolitik zum Ausdruck, die Machtverhältnisse
 zwischen internationaler, nationaler und städtischer Ebene neu ordnet
-(Piletić, 2022). Waterfront
+(Piletić, 2022).
+
+Zugleich bieten solche städtische Strukturen geeignete Ansatz- und
+Kristallisationspunkte für Widerstand. Die offensichtliche Vereinnahmung
+zentraler Flächen der Stadt als Beute von Investmentstrategien sowie die
+generische Architektur und mangelhafte bauliche Qualität sind im
+Gegenzug Katalysator für die Formierung zivilgesellschaftlichen
+Widerstands (Čamprag, 2024).
 
 \section{Material und Methode}\label{material-und-methode}
 
@@ -360,6 +418,12 @@ Akteur*innen unterschiedlicher sozialer Bewegungen im Rahmen der
 Studierendenproteste.
 
 \section{Belgrade Waterfront}\label{belgrade-waterfront}
+
+Die Stadt wird zu einem Werkzeug geopolitischer Positionierung. Das
+Beispiel Belgrade Waterfront ist hier besonders augenfällig .
+Hochpreisige Apartmenttürme gebaut mit internationalem Investmentkapital
+sollen den Anspruch Belgrads als \emph{world class city} auch baulich
+zementieren.
 
 \section{Expo 2027}\label{expo-2027}
 
@@ -408,6 +472,17 @@ and the Entrenchment of Authoritarianism in {Azerbaijan}, {Serbia} and
 {Georgia}} (ZOiS Report No. 3/2026). Berlin: Zentrum f{ü}r Osteuropa-
 und internationale Studien (ZOiS).
 
+\bibitem[\citeproctext]{ref-Della-Sala18Narratin}
+Della Sala, V. (2018). Narrating Europe: the EU's ontological security
+dilemma. \emph{European Security}, \emph{27}(3), 266--279.
+\url{https://doi.org/10.1080/09662839.2018.1497978}
+
+\bibitem[\citeproctext]{ref-DiGiovanni2017}
+Di Giovanni, A. (2017). Urban Transformation under Authoritarian
+Neoliberalism. In C. B. Tansel (Hrsg.), \emph{States of Discipline:
+Authoritarian Neoliberalism and the Contested Reproduction of Capitalist
+Order} (S. 107--127). London: Rowman \& Littlefield International.
+
 \bibitem[\citeproctext]{ref-Ejdus17Not-a-he}
 Ejdus, F. (2017). {„Not a heap of stones``}: material environments and
 ontological security in international relations. \emph{Cambridge Review
@@ -426,11 +501,34 @@ politics and regulatory capitalism in {Central} and {Eastern} {Europe}:
 The {Belgrade} {Waterfront} project. \emph{Urban Studies}, \emph{56}(4),
 649--671. \url{https://doi.org/10.1177/0042098018757663}
 
+\bibitem[\citeproctext]{ref-Jenss2019}
+Jenss, A. (2019). Authoritarian Neoliberal Rescaling in {L}atin
+{A}merica: Urban In/Security and Austerity in {O}axaca.
+\emph{Globalizations}, \emph{16}(3), 304--319.
+\url{https://doi.org/10.1080/14747731.2018.1502493}
+
 \bibitem[\citeproctext]{ref-Piletic22The-role}
 Piletić, A. (2022). The role of the urban scale in anchoring
 authoritarian neoliberalism: a look at post-2012 neoliberalization in
 {Belgrade}, {Serbia}. \emph{Globalizations}, \emph{19}(2), 285--300.
 \url{https://doi.org/10.1080/14747731.2021.1882817}
+
+\bibitem[\citeproctext]{ref-Steele19Ontologi}
+Steele, B. J., \& Homolar, A. (2019). Ontological insecurities and the
+politics of contemporary populism. \emph{Cambridge Review of
+International Affairs}, \emph{32}(3), 214--221.
+\url{https://doi.org/10.1080/09557571.2019.1596612}
+
+\bibitem[\citeproctext]{ref-Tansel2019}
+Tansel, C. B. (2019). Reproducing Authoritarian Neoliberalism in
+{T}urkey: Urban Governance and State Restructuring in the Shadow of
+Executive Centralization. \emph{Globalizations}, \emph{16}(3), 320--335.
+\url{https://doi.org/10.1080/14747731.2018.1502494}
+
+\bibitem[\citeproctext]{ref-Tzifakis25Great-Po}
+Tzifakis, N., \& Vasdoka, E. (2025). Great Powers and Gatekeepers in the
+Western Balkans: Serbia's Strategic Hedging, \emph{29}(1), 287--309.
+\url{https://doi.org/10.2139/ssrn.5228741}
 
 \bibitem[\citeproctext]{ref-Zekovic23The-fina}
 Zeković, S., Perić, A., \& Hadžić, M. (2023). The financialization of
